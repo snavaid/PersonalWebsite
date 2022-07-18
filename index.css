@@ -1,0 +1,900 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+@import url("'https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display&display=swap'");
+@import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800;900&family=Raleway&display=swap');
+/* ------BODY------ */
+
+body {
+  background-color:rgb(255, 255, 255);
+  font-family: "Work Sans", sans-serif;
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-attachment: fixed;
+  background-position: 8% 8%;
+  
+}
+
+/* ------ LOGO ------ */
+
+.top-bar-desktop ul li:last-child { float: left; }
+
+
+.top-bar-desktop .logo a {
+  padding-top: 1em;
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  position: relative;
+  text-decoration: none;
+  color: #333333;
+  font-family: 'Domine', serif;
+}
+
+
+
+.salutation {
+  font-family: 'Domine', serif;
+  font-weight: 500;
+}
+
+.portfolio{
+  font-weight: 500;
+  font-size: 1.7em;
+  text-align: center;
+
+}
+
+
+
+
+/* ------ CONTENTS ------ */
+
+.website-contents {
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 3em;
+}
+
+/* ------NAVIGATION BAR------ */
+
+.menu {
+  display: inline;
+}
+
+.nav-wrapper ul {
+  position: relative;
+  align-self: left;
+  font-size: 1.1em;
+  font-weight: 400;
+  background-color: rgb(252, 252, 252);
+  padding-right: 3em;
+}
+
+.nav-wrapper li {
+  position: relative;
+  align-self: left;
+  display: inline;
+  text-decoration: none;
+  padding: 1em;
+  float: right;
+}
+
+.nav-wrapper li a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.nav-wrapper li:hover {
+    cursor: hand;
+}
+.nav-wrapper li a:hover {
+  color: #4bb1a8;
+}
+
+.top-bar-mobile {
+  display: none;
+}
+
+/* -----  WEBSITE CONTENTS -----*/
+
+mark {
+  background-color: #feede2;
+  padding: 4px;
+  border-radius: 0.25em;
+}
+
+.sun {
+  color: #ed9395;
+}
+.website-contents h1 {
+  letter-spacing: 0.07em;
+  margin: 0;
+  font-size: 3em;
+  font-weight: 500;
+  
+}
+
+/* ------ A4UT ------ */
+
+.vertical-divider {
+  padding-top: 3em;
+}
+
+
+.website-contents .about {
+  padding: 1.3em;
+  padding-top: 1em;
+  color: #333333;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+.about-wrapper {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 2em;
+  border-radius: 3em;
+
+
+}
+
+@media screen and (max-width: 600px){
+  .website-contents .about{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .website-contents {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+@media screen and (min-width: 1500px){
+    .website-contents .about {
+        padding: 1.3em;
+        padding-top: 4em;
+        color: #333333;
+        margin-left: 27%;
+        margin-right: 22%;
+      }
+
+      
+}
+
+.animation {
+}
+.animation img {
+  width: 30%;
+  float: right;
+  padding-top: 2.5em;
+  padding-right: 0em;
+  opacity: 100%;
+}
+
+button {
+  background-color: #CBE8F5;
+  padding: 0.5em 1em 0.5em 1em;
+  border: 0em;
+  border-radius: 1em;
+  font-family:  "Work Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+button:hover {
+  background-color: #1F8F8F;
+  padding: 0.5em 1em 0.5em 1em;
+  border: 0em;
+  border-radius: 1em;
+  font-family:  "Work Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: hand;
+}
+
+.website-contents .about h2 {
+  font-weight: 400;
+  color: #4bb1a8;
+  margin: 0;
+  padding-top: 0.5em;
+  font-size: 1.5em;
+}
+
+.about .about-paragraph {
+  width: 63%;
+}
+.about p {
+  line-height: 2em;
+  font-size: 1.15em;
+}
+
+.website-contents .about .learn-more a {
+  text-decoration: none;
+  color: #4bb1a8;
+}
+
+.website-contents .about .learn-more a:hover {
+  opacity: 70%;
+}
+
+/* ----- DESIGN ---- */
+
+.website-contents .design {
+  padding: 1.3em;
+
+  color: #333333;
+}
+
+@media screen and (min-width: 2300px) {
+
+  .website-contents .design{
+    padding: 5em;
+  }
+
+}
+
+.divider {
+  padding-left: 1em;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0.5em;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 65%;
+  display: inline;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px){
+  .column {
+    max-width: 100%;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1500px){ 
+    .column {
+        flex: 25%;
+        max-width: 45%;
+        display: inline;
+        margin: 0 auto;
+      }
+      
+}
+
+
+
+.entry {
+  padding-top: 0.5em;
+}
+
+.column img {
+  margin-top: 0em;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column img:hover {
+  opacity: 70%;
+}
+
+.column a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.column a:hover {
+}
+
+.column a:hover ~ #image {
+  opacity: 20%;
+}
+
+.entry-container img {
+  visibility: hidden;
+}
+
+.entry-container-2 img {
+  visibility: hidden;
+}
+
+.entry-container-5 img {
+  visibility: hidden;
+}
+
+.entry-container-6 img {
+  visibility: hidden;
+}
+
+.entry-container-7 img {
+  visibility: hidden;
+}
+
+.entry-container-4 img {
+  visibility: hidden;
+}
+
+
+
+.entry-container {
+
+  background: url("assets/WSIB-Passport-Thumbnail.png");
+  color: rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  transition: all 0.5s;
+  border-radius: 1.3em;
+}
+
+.entry-container-2 {
+  background: url("assets/airbnb-thumbnail-1.png");
+  color: rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  transition: all 0.5s;
+  border-radius: 1.3em;
+
+}
+.entry-container-5 {
+  background: url("assets/BeBlended-Thumbnail.png");
+  color: rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  transition: all 0.5s;
+  border-radius: 1.3em;
+
+}
+
+.entry-container-6 {
+  background: url("assets/ProseApp-Desktop-Mobile-Thumbnail.png");
+  color: rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  transition: all 0.5s;
+  border-radius: 1.3em;
+
+}
+
+.entry-container-7 {
+  background: url("assets/AboveUs-Thumbnail.png");
+  color: rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  transition: all 0.5s;
+  border-radius: 1.3em;
+
+}
+
+.entry-container-4 {
+  background: url("assets/illustration-thumbnail.png");
+  color: rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  transition: all 0.5s;
+  border-radius: 1.3em;
+
+}
+
+.entry-container:hover:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  transition: all 0.5s;
+
+}
+
+.entry-container:before {
+    position: absolute;
+    content:    "";
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.0);
+    transition: all 0.5s;
+}
+
+.entry-container-2:hover:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  transition: all 0.5s;
+}
+
+.entry-container-5:hover:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  transition: all 0.5s;
+}
+
+.entry-container-6:hover:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  transition: all 0.5s;
+}
+
+.entry-container-7:hover:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  transition: all 0.5s;
+}
+
+
+.entry-container-4:hover:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  transition: all 0.5s;
+}
+
+
+
+.entry-container-2:before {
+    position: absolute;
+    content:    "";
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.0);
+    transition: all 0.5s;
+}
+
+.entry-container-5:before {
+  position: absolute;
+  content:    "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.0);
+  transition: all 0.5s;
+}
+
+.entry-container-6:before {
+  position: absolute;
+  content:    "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.0);
+  transition: all 0.5s;
+}
+
+.entry-container-7:before {
+  position: absolute;
+  content:    "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.0);
+  transition: all 0.5s;
+}
+
+.entry-container-4:before {
+  position: absolute;
+  content:    "";
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.0);
+  transition: all 0.5s;
+}
+
+
+
+.overlay-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.overlay-container2 {
+  position: relative;
+  margin-top: -40%;
+  left: -50%;
+  
+}
+
+.overlay-container5 {
+  position: relative;
+  margin-top: -40%;
+  left: -50%;
+  
+}
+
+.overlay-container6 {
+  position: relative;
+  margin-top: -40%;
+  left: -50%;
+  
+}
+
+.overlay-container7 {
+  position: relative;
+  margin-top: -40%;
+  left: -50%;
+  
+}
+
+
+.overlay-container4{
+  position: relative;
+  margin-top: -40%;
+  left: -50%;
+  
+}
+
+.overlay-title {
+  font-weight: 600;
+  width: 100%;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 500px) {
+  .overlay-title {
+    font-size: 1.5em;
+  }
+}
+.overlay-subtitle {
+    font-weight: 300;
+    width: 100%;
+    font-size: 0.75em;
+    text-align: center;
+}
+.entry-container:hover {
+  
+  color: #333333;
+  
+}
+
+.entry-container-2:hover {
+  
+  color: #333333;
+  
+}
+
+.entry-container-5:hover {
+  
+  color: #333333;
+  
+}
+
+.entry-container-6:hover {
+  
+  color: #333333;
+  
+}
+
+.entry-container-7:hover {
+  
+  color: #333333;
+  
+}
+.entry-container-4:hover {
+  
+  color: #333333;
+  
+}
+
+.entry-container:hover .overlay-subtitle {
+  background-color: #333333;
+  border-radius: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+
+  color: #ffffff
+}
+
+.entry-container-2:hover .overlay-subtitle {
+  background-color: #333333;
+  border-radius: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+
+  color: #ffffff
+}
+
+.entry-container-5:hover .overlay-subtitle {
+  background-color: #333333;
+  border-radius: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+
+  color: #ffffff
+}
+
+.entry-container-6:hover .overlay-subtitle {
+  background-color: #333333;
+  border-radius: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+
+  color: #ffffff
+}
+
+.entry-container-7:hover .overlay-subtitle {
+  background-color: #333333;
+  border-radius: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+
+  color: #ffffff
+}
+
+
+
+.entry-container-4:hover .overlay-subtitle {
+  background-color: #333333;
+  border-radius: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+
+  color: #ffffff
+}
+
+
+
+
+
+
+.entry-container {
+  background-color: black;
+}
+
+.entry-container-2 {
+  background-color: black;
+}
+
+
+.entry-container-5 {
+  background-color: black;
+}
+
+
+.entry-container-6 {
+  background-color: black;
+}
+
+.entry-container-7 {
+  background-color: black;
+}
+
+.entry-container-4 {
+  background-color: black;
+}
+
+.entry-container-3 {
+  background-color: black;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+ 
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 500px)
+ {
+  .top-bar-mobile {
+    display: block;
+  }
+
+  .nav-wrapper-mobile {
+    text-align: center;
+  }
+
+  .nav-wrapper-mobile ul {
+      margin-bottom: 0px;
+      position: relative;
+      font-size: 1em;
+      font-weight: 400;
+      background-color: rgb(243, 243, 243, 0);
+      padding-right: 0em;
+      padding-left: 0em;
+  }
+
+  .nav-wrapper-mobile li {
+    position: relative;
+    display: inline;
+    text-decoration: none;
+    padding-right: 0.55em;
+    padding-left: 0.55em;
+  }
+  
+  .nav-wrapper-mobile li a {
+    text-decoration: none;
+
+    color: #333333;
+  }
+  .nav-wrapper-mobile li a:hover {
+    color: #4bb1a8;
+  }
+
+  .animation {
+      width: 0%;
+      height: 0%;
+  }
+
+  .website-contents {
+      width: 80%;
+      padding-top: 0em;
+  }
+
+  .website-contents .about-paragraph {
+      width: 100%;
+  }
+
+  .top-bar-desktop {
+    display: none;
+  }
+ }
+
+
+
+
+
+
+
+
+
+/* ----- FOOTER ----- */
+
+.footer .links {
+  text-align: center;
+  display: inline;
+}
+
+.footer .links ul {
+  position: relative;
+  padding-inline-start: 0px;
+}
+
+.footer .links li {
+  position: relative;
+  align-self: center;
+  display: inline;
+  padding: 1em;
+}
+
+.footer .links li a {
+  color: #333333;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 0;
+}
+
+
+/* ----- SIGNATURE -----*/
+
+.signature {
+  padding-bottom: 1em;
+}
+
+i:hover {
+  color: #4bb1a8;
+}
+
+.signature p {
+  text-align: center;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column-work {
+  float: left;
+  width: 10%;
+  padding-right: 2rem;
+  opacity: 80%;
+}
+
+.column-work:hover {
+  opacity: 50%;
+}
+
+/* Clear floats after image containers */
+.row-work::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
