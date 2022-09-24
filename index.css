@@ -88,7 +88,7 @@ body {
     cursor: hand;
 }
 .nav-wrapper li a:hover {
-  color: #4bb1a8;
+  color: #ed9395;
 }
 
 .top-bar-mobile {
@@ -341,7 +341,7 @@ button:hover {
 }
 
 .entry-container-2 {
-  background: url("assets/airbnb-thumbnail-1.png");
+  background: url("assets/newBing.png");
   color: rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
