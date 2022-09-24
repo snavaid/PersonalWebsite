@@ -172,7 +172,7 @@ button a {
   color: #333333;
 }
 .nav-wrapper li a:hover {
-  color: #1F8F8F;
+  color: #ed9395;
 }
 
 
@@ -226,8 +226,8 @@ mark {
 
 .bkgdvid-mobile video {
   display: block;
-  width: 30%;
-  height: 30%;
+  width: 90%;
+  height: 90%;
   margin: 0 auto;
   box-shadow: 30px 30px 59px #e0e0e0, 
   -30px -30px 59px #ffffff;;
@@ -239,15 +239,19 @@ mark {
 }
 
 
-.bkgdvid1 video {
+.bkgdvid-mobile1 video {
   display: block;
-  width: 25%;
-  height: 25%;
+  width: 30%;
+  height: 30%;
   margin: 0 auto;
+  box-shadow: 30px 30px 59px #e0e0e0, 
+  -30px -30px 59px #ffffff;;
   z-index: -1;
-  border-radius: 2em;
-}
+  border-radius: 1em;
+  
 
+
+}
 
 
 .intro {
@@ -529,7 +533,7 @@ mark {
     color: #333333;
   }
   .nav-wrapper-mobile li a:hover {
-    color: #1F8F8F;
+    color: #ed9395;
   }
   .animation {
       width: 0%;
